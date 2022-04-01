@@ -1,0 +1,26 @@
+.tab-header{
+    display: flex;
+    }
+    .btn-tab{
+        width: 20%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0.5rem;
+        border-bottom: 1px solid #ccc;
+        margin-top: -20px;
+    }
+    .btn-tab.active{
+        border: 1px solid #ccc;
+        border-bottom-color:#fff;
+        border-radius: 5px 5px 0 0;       
+    }
+    .tab-body{
+    padding: 0.5rem, 1rem;
+    }
+    .tab-content{
+        display: none;
+    }
+    .tab-content.active{
+        display: block;
+    }

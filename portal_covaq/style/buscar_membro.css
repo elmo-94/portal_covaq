@@ -1,0 +1,30 @@
+:root{
+    --main-color:#08307a;
+    --color-dark:#663399;
+    --text-grey:#8390A2;
+}
+.table-resultado{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.table-resultado .thead{
+    background-color: #ccc;
+    
+    
+}
+.table-resultado .thead tr th{
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.table-resultado .tbody tr td{
+    border: 1px solid #ccc !important;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+
