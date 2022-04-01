@@ -1,0 +1,9 @@
+@keyframes hide {
+    from { opacity: 1 }
+    to   { opacity: 0 }
+    }
+
+    .msg{
+        color: blue;
+    animation: hide 2s 2s forwards;
+    }

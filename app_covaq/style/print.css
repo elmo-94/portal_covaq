@@ -1,0 +1,24 @@
+
+.only-print{
+    display: none !important;
+}
+
+@media print{
+
+    .no-print{
+        display: none !important;
+    }
+
+    .only-print{
+        display: block !important;
+    }
+    .main-content{
+        margin-left: 0;
+    }
+    .recent-grid{
+        display: block;
+    }
+    main{
+        background-color: #fff;
+    }
+}

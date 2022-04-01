@@ -1,0 +1,78 @@
+.menu{
+    position: absolute;
+    top: 200px;
+    right: 450px;
+    padding: 10px 20px;
+    background: #b6cdf8;
+    width: 400px;
+    box-sizing: 0 5px 25px #0000001a rgb(158, 142, 142);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0; 
+}
+.menu.active{
+    top: 150px;
+    visibility: visible;
+    opacity: 1;
+
+}
+/*
+.menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 30px;
+    height: 20px;
+    background-color: #b6cdf8;
+    transform: rotate(45deg);
+
+}*/
+.menu h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.2em;
+}
+.menu h3 span{
+    font-size: 14px;
+    color: rgb(111, 109, 109);
+    font-weight: 400;
+}
+.menu ul{
+    display: flex;
+    padding: 10px 0;
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 8px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+}
+.menu ul li img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.menu ul li img:hover{
+    opacity: 1.5;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.menu ul li:hover a{
+    
+    color: royalblue;
+
+}
